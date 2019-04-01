@@ -1,0 +1,30 @@
+{
+  "name": "esir-tp4",
+  "version": "1.0.0",
+  "description": "TP4 sur les tests unitaires",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "mocha --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stfanmichel/ESIR-TP3.git"
+  },
+  "author": "Stéphane Michel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stfanmichel/ESIR-TP3/issues"
+  },
+  "homepage": "https://github.com/stfanmichel/ESIR-TP3#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.1",
+    "express": "^4.16.4",
+    "mocha": "^6.0.2",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
